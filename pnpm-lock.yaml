@@ -24,8 +24,8 @@ importers:
   apps/docs:
     dependencies:
       '@netlify/plugin-nextjs':
-        specifier: ^4.40.1
-        version: 4.40.1
+        specifier: 4.30.4
+        version: 4.30.4
       netlify-cli:
         specifier: ^16.1.0
         version: 16.1.0(@types/node@17.0.12)
@@ -64,8 +64,8 @@ importers:
   apps/web:
     dependencies:
       '@netlify/plugin-nextjs':
-        specifier: ^4.40.1
-        version: 4.40.1
+        specifier: 4.30.4
+        version: 4.30.4
       netlify-cli:
         specifier: ^16.1.0
         version: 16.1.0(@types/node@17.0.12)
@@ -656,7 +656,7 @@ packages:
       detect-libc: 2.0.2
       https-proxy-agent: 5.0.1(supports-color@9.4.0)
       make-dir: 3.1.0
-      node-fetch: 2.6.12
+      node-fetch: 2.6.13
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
@@ -1475,8 +1475,8 @@ packages:
     resolution: {integrity: sha512-IJ55rIOsPTxpqPzGFLQ9KSRjaHfSEAD5trlJCIWW7AYYiWX5TFnBNPPvflC0KNHTC7eEbTBQbHXfsxqzIGSMXQ==}
     dev: false
 
-  /@netlify/plugin-nextjs@4.40.1:
-    resolution: {integrity: sha512-FVXQEzBCymJHu2JYnJs03hUXjJAIAHcLMsrbcrnSjqmib4yF65YZ9yJYmrajV2D6LRqN/TxWhzTEgGr9eYpRHQ==}
+  /@netlify/plugin-nextjs@4.30.4:
+    resolution: {integrity: sha512-Y72G0P2uKe4tJZuiKibBdIeBz69/0G00umzy8D96LHHs5jq4Yr/Wbp/u56YG3MA84E/qmOhBfyc20DGbPMe9tQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@netlify/esbuild': 0.14.39
@@ -1484,7 +1484,6 @@ packages:
       '@netlify/ipx': 1.4.4
       '@vercel/node-bridge': 2.2.2
       chalk: 4.1.2
-      chokidar: 3.5.3
       destr: 1.2.2
       execa: 5.1.1
       follow-redirects: 1.15.2(debug@4.3.4)
@@ -1496,7 +1495,7 @@ packages:
       node-stream-zip: 1.15.0
       outdent: 0.8.0
       p-limit: 3.1.0
-      pathe: 0.3.9
+      pathe: 0.2.0
       pretty-bytes: 5.6.0
       regexp-tree: 0.1.27
       semver: 7.5.4
@@ -1832,7 +1831,7 @@ packages:
       '@octokit/request-error': 3.0.3
       '@octokit/types': 9.3.2
       is-plain-object: 5.0.0
-      node-fetch: 2.6.12
+      node-fetch: 2.6.13
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
       - encoding
@@ -9079,8 +9078,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /pathe@0.3.9:
-    resolution: {integrity: sha512-6Y6s0vT112P3jD8dGfuS6r+lpa0qqNrLyHPOwvXMnyNTQaYiwgau2DP3aNDsR13xqtGj7rrPo+jFUATpU6/s+g==}
+  /pathe@0.2.0:
+    resolution: {integrity: sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==}
     dev: false
 
   /pathe@1.1.1:
