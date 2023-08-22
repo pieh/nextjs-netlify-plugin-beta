@@ -1,0 +1,1 @@
+# nextjs-13.4.19-basepath-rewrite-issue
