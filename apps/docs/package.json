@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "deploy": "pnpm --package=netlify-cli@13.0.1 dlx netlify deploy --build --prod --auth $NETLIFY_AUTH_TOKEN --site c2547a19-9a88-4c01-a6c5-67b150e3d6bf",
     "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
