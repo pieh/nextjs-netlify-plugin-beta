@@ -5,7 +5,7 @@ module.exports = {
     return [
       {
         source: '/docs/:path*',
-        destination: `https://nextjs-basepath-rewrite-issue-docs.netlify.app/:path*`,
+        destination: `${process.env.NEXT_REWRITE_DOCS_URL}/:path*`,
       },
     ];
   },
