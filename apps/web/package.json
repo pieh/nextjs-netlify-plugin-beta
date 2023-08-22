@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "deploy": "pnpm --package=netlify-cli@16.1.0 dlx netlify deploy --build --prod --auth $NETLIFY_AUTH_TOKEN --site a78a2e0c-607a-4cca-a2b4-01ab889d10c0",
+    "deploy": "netlify deploy --build --prod --auth $NETLIFY_AUTH_TOKEN --site a78a2e0c-607a-4cca-a2b4-01ab889d10c0",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.40.1",
+    "netlify-cli": "^16.1.0",
     "next": "^13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
