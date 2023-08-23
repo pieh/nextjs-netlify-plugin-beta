@@ -26,6 +26,10 @@ Based on the [Turborepo basic starter](https://github.com/vercel/turbo/tree/main
 
 These are deployed to Netlify via the Netlify CLI in a GitHub Actions workflow.
 
+The `both-latest` branch is also deployed to Vercel via its GitHub integration:
+- https://nextjs-basepath-rewrite-issue-web.vercel.app
+- https://nextjs-basepath-rewrite-issue-docs.vercel.app/docs
+
 ## Usage
 
 ```shell
@@ -53,6 +57,8 @@ Using versions:
 However, the rewrite proxying functionality stops working when upgrading either of the `@netlify/plugin-nextjs` or `next` packages to the latest versions.
 
 The `plugin-nextjs-latest` branch includes an upgrade to `@netlify/plugin-nextjs@4.40.1`. Open https://plugin-nextjs-latest--nextjs-basepath-rewrite-issue-web.netlify.app/docs and observe infinite HTTP redirects `/docs` -> `/docs/` -> `/docs` -> `/docs/` -> etc.
+
+Open http://localhost:3000/docs and observe the site loads normally.
 
 The `nextjs-latest` branch includes an upgrade to `next@13.4.19`. Open https://nextjs-latest--nextjs-basepath-rewrite-issue-web.netlify.app/docs and observe a 404 error.
 
