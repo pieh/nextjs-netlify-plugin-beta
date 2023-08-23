@@ -66,4 +66,6 @@ Open http://localhost:3000/docs and observe the site loads normally.
 
 The `both-latest` branch includes both upgrades. Open https://both-latest--nextjs-basepath-rewrite-issue-web.netlify.app/docs and observe a 404 error.
 
+On Vercel, open https://nextjs-basepath-rewrite-issue-web.vercel.app/docs and observe infinite HTTP redirects: `/docs` -> `/docs` -> `/docs` -> `/docs` -> etc.
+
 Open http://localhost:3000/docs and observe the site loads normally.
