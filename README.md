@@ -1,6 +1,6 @@
 # nextjs-13.4.19-basepath-rewrite-issue
 
-Demonstration of an issue with Next.js on Netlify when using basePath and rewrites together.
+Demonstration of an issue with Next.js when using basePath and rewrites together.
 
 Based on the [Turborepo basic starter](https://github.com/vercel/turbo/tree/main/examples/basic), there are two Next.js apps:
 
