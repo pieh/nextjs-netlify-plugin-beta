@@ -1,6 +1,6 @@
 # nextjs-13.5-netlify-follow-redirects-issue
 
-Demonstration of an issue with Next.js when using basePath and rewrites together.
+Demonstration of an issue with Next.js when using netlify-cli and pnpm.
 
 Based on the [Turborepo basic starter](https://github.com/vercel/turbo/tree/main/examples/basic), there are two Next.js apps:
 
