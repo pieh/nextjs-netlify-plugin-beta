@@ -21,7 +21,7 @@ pnpm install
 pnpm dev
 
 # deploy to Netlify
-# must set environment variables NETLIFY_AUTH_TOKEN and NEXT_REWRITE_DOCS_URL
+# must set environment variable NETLIFY_AUTH_TOKEN
 # must edit site IDs in apps/{web,docs}/package.json to match your Netlify sites
 pnpm run deploy
 ```
