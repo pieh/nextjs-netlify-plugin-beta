@@ -25,6 +25,12 @@ jobs:
       - name: Install dependencies with pnpm
         run: pnpm install --frozen-lockfile
 
+      - name: Log docs Next.js version
+        run: cd apps/docs && pnpm exec next --version
+
+      - name: Log web Next.js version
+        run: cd apps/web && pnpm exec next --version
+
       - name: Run deploy script
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
