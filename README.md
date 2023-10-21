@@ -1,4 +1,4 @@
-# nextjs-13.5-netlify-follow-redirects-issue
+# nextjs-netlify-follow-redirects-issue
 
 Demonstration of an issue with Next.js when using netlify-cli and pnpm.
 
