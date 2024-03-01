@@ -1,6 +1,6 @@
-# nextjs-netlify-follow-redirects-issue
+# nextjs-netlify-plugin-beta
 
-Demonstration of an issue with Next.js when using netlify-cli and pnpm.
+Trying `@netlify/plugin-nextjs@^5.0.0-beta.9`.
 
 Based on the [Turborepo basic starter](https://github.com/vercel/turbo/tree/main/examples/basic), there are two Next.js apps:
 
@@ -25,15 +25,3 @@ pnpm dev
 # must edit site IDs in apps/{web,docs}/package.json to match your Netlify sites
 pnpm run deploy
 ```
-
-## The issue
-
-The `docs` app is configured to use only server-side rendering (SSR), by having the `pages/_app.tsx` define `getInitialProps`.
-
-When deployed to Netlify, the app raises this error:
-
-```
-Runtime.ImportModuleError - Error: Cannot find module 'follow-redirects' Require stack: - /var/task/.netlify/functions-internal/___netlify-handler/handlerUtils.js - /var/task/.netlify/functions-internal/___netlify-handler/___netlify-handler.js - /var/task/___netlify-handler.js - /var/runtime/index.mjs
-```
-
-Visit https://nextjs-follow-redirects-docs.netlify.app.

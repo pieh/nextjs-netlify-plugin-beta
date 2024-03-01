@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "deploy": "netlify deploy --build --prod --auth $NETLIFY_AUTH_TOKEN --site 412ef113-aa7d-4f00-9c58-8cc9a4a885e1 --skip-functions-cache",
+    "deploy": "netlify deploy --build --prod --auth $NETLIFY_AUTH_TOKEN --site 3f3cba0a-46c6-4895-b3bb-ba644ba1fc57 --skip-functions-cache",
     "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^4.40.2",
-    "netlify-cli": "^15.11.0",
-    "next": "~13.4.19",
+    "@netlify/plugin-nextjs": "^5.0.0-beta.9",
+    "netlify-cli": "^17.17.1",
+    "next": "~13.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ui": "workspace:*"
   },
   "devDependencies": {
-    "@types/node": "^17.0.12",
+    "@types/node": "^20.11.24",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "eslint-config-custom": "workspace:*",
