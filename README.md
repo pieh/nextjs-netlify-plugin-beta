@@ -6,11 +6,11 @@ Based on the [Turborepo basic starter](https://github.com/vercel/turbo/tree/main
 
 - `apps/web`: The main app served on http://localhost:3000.
 
-  The `main` branch is deployed to https://nextjs-follow-redirects-web.netlify.app
+  The `main` branch is deployed to https://nextjs-netlify-plugin-beta-web.netlify.app
 
 - `apps/docs`: A secondary app served on http://localhost:3001.
 
-  The `main` branch is deployed to https://nextjs-follow-redirects-docs.netlify.app
+  The `main` branch is deployed to https://nextjs-netlify-plugin-beta-docs.netlify.app
 
 ## Usage
 
