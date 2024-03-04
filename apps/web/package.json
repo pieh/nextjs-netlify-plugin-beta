@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^5.0.0-beta.9",
+    "@netlify/plugin-nextjs": "rc",
     "netlify-cli": "^17.17.1",
     "next": "~13.5.6",
     "react": "^18.2.0",

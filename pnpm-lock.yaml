@@ -24,7 +24,7 @@ importers:
   apps/docs:
     dependencies:
       '@netlify/plugin-nextjs':
-        specifier: ^5.0.0-beta.9
+        specifier: rc
         version: 5.0.0-rc.2
       netlify-cli:
         specifier: ^17.17.1
@@ -64,7 +64,7 @@ importers:
   apps/web:
     dependencies:
       '@netlify/plugin-nextjs':
-        specifier: ^5.0.0-beta.9
+        specifier: rc
         version: 5.0.0-rc.2
       netlify-cli:
         specifier: ^17.17.1
