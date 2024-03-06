@@ -1,5 +1,7 @@
 [build]
   command = "pnpm run build"
+  base = "/"
+  package = "apps/web"
   publish = ".next"
 
 [build.environment]
