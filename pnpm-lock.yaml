@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@netlify/plugin-nextjs':
+        specifier: rc
+        version: 5.0.0-rc.3
     devDependencies:
       eslint:
         specifier: ^8.47.0
@@ -23,9 +27,6 @@ importers:
 
   apps/docs:
     dependencies:
-      '@netlify/plugin-nextjs':
-        specifier: rc
-        version: 5.0.0-rc.2
       netlify-cli:
         specifier: ^17.17.1
         version: 17.17.1(@types/node@20.11.24)
@@ -63,9 +64,6 @@ importers:
 
   apps/web:
     dependencies:
-      '@netlify/plugin-nextjs':
-        specifier: rc
-        version: 5.0.0-rc.2
       netlify-cli:
         specifier: ^17.17.1
         version: 17.17.1(@types/node@20.11.24)
@@ -1230,8 +1228,8 @@ packages:
       '@opentelemetry/api': 1.7.0
     dev: false
 
-  /@netlify/plugin-nextjs@5.0.0-rc.2:
-    resolution: {integrity: sha512-5yZl3xZ+YYJcdr49ZhUfZT7lVKjRld3vf7Z7/PZU9kdAPlEsHpfMa0AJEMIujpFs4nNWQnNtQbvb3RuyM1salw==}
+  /@netlify/plugin-nextjs@5.0.0-rc.3:
+    resolution: {integrity: sha512-RPBxdEX5iGmQy92byKSEu9TNGm8+R4dy5AnlWGWuu2vpY67GjHhqIagoP6pTdpsSKNeXEjz6VgD0WSiKtQYmSw==}
     engines: {node: '>=18.0.0'}
     dev: false
 

@@ -7,6 +7,9 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
+  "dependencies": {
+    "@netlify/plugin-nextjs": "rc"
+  },
   "devDependencies": {
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
