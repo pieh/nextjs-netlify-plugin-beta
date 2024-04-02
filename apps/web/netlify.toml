@@ -2,7 +2,7 @@
   command = "pnpm run build"
   base = "/"
   package = "apps/web"
-  publish = ".next"
+  publish = "apps/web/.next"
 
 [build.environment]
   NETLIFY_USE_PNPM = "true"
