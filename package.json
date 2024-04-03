@@ -8,7 +8,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "rc"
+    "@netlify/plugin-nextjs": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "^8.47.0",
